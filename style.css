@@ -1,0 +1,21 @@
+body {
+ background-color: aquamarine;
+}
+
+canvas {
+    border-width: 0px;
+    border-style: solid;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+    from{box-shadow: 4px 4px 43px rgb(0, 81, 255);}
+    to{box-shadow: 4px 4px 43px cyan;}
+}
+
+#take_img:hover {
+    background-color: red;
+}
+
